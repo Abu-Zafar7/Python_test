@@ -103,7 +103,7 @@ python manage.py migrate
 python manage.py load_players
 ```
 
-### 7. Create Superuser (Optional)
+### 7. Create Superuser
 ```bash
 python manage.py createsuperuser
 ```
