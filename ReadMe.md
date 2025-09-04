@@ -123,7 +123,7 @@ The API will be available at `http://localhost:8000/`
 
 ### Players
 - `GET /api/players/` - List all players (with optional filtering)
-  - Query parameters: `?club=<club_name>&position=<position>`
+  - Query parameters: `?club=<club_name> or ?position=<position>`
 - `POST /api/players/<id>/like/` - Like a player (requires authentication)
 
 ### Rankings
