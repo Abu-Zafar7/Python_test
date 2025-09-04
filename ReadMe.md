@@ -52,7 +52,7 @@ A comprehensive Django REST API for managing soccer players, tracking likes, and
 - PostgreSQL
 - Virtual environment (recommended)
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Set Up Virtual Environment
 ```bash
@@ -115,7 +115,7 @@ python manage.py runserver
 
 The API will be available at `http://localhost:8000/`
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register/` - User registration
@@ -139,14 +139,14 @@ The API will be available at `http://localhost:8000/`
 
 
 
-## 🔒 Authentication
+## Authentication
 
 The API uses token-based authentication:
 1. Register a user at `/api/auth/register/`
 2. Obtain a token at `/api/auth/token/`
 3. Include the token in the Authorization header: `Authorization: Token <your_token>`
 
-## 🧪 Testing
+## Testing
 
 Run the comprehensive test suite:
 ```bash
@@ -161,7 +161,7 @@ The test suite covers:
 - Top N players functionality
 - Most liked per club logic
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Python_test/
@@ -235,4 +235,5 @@ The project is configured for PostgreSQL but can easily be adapted for other dat
 - Comprehensive testing with Django's testing framework
 - RESTful API design principles
 
+## Bonus Tip: Use Postman to check the endpoints.
 ---
